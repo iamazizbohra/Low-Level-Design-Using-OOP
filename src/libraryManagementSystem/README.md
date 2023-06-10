@@ -1,4 +1,4 @@
-# Library Management System
+# Design a Library Management System
 
 ## System Requirements
 
