@@ -2,7 +2,7 @@
 
 Below are the curated resources to master Low-Level-Design-Using-OOP, Make sure to read them in the same order as listed
 
-## Books to read:
+## Must read books:
 
 1. Clean Code: A Handbook of Agile Software Craftsmanship - https://amzn.eu/d/3erdDYj
 
@@ -12,6 +12,8 @@ Below are the curated resources to master Low-Level-Design-Using-OOP, Make sure 
 
 4. Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software - https://amzn.eu/d/9D119u5
 
+## Learn UML
+https://amzn.eu/d/eJ0JFJR
 
 ## What is Object-Oriented Programming?
 https://iamazizbohra.hashnode.dev/what-is-object-oriented-programming
