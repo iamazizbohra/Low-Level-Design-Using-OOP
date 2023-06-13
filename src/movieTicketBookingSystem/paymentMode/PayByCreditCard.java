@@ -1,8 +1,8 @@
-package onlineShoppingSystem.payment;
+package movieTicketBookingSystem.paymentMode;
 
 import java.util.Date;
 
-public class CreditCard implements PaymentGateway {
+public class PayByCreditCard extends PaymentMode {
     private String name;
     private String cardNo;
     private String cvvNo;

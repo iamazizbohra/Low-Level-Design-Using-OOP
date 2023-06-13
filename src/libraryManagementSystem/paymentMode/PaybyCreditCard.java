@@ -1,6 +1,6 @@
-package libraryManagementSystem.payment;
+package libraryManagementSystem.paymentMode;
 
-public class PayByCard implements PaymentGateway {
+public class PaybyCreditCard implements PaymentMode {
     @Override
     public void pay(int amount) {
         System.out.println("Payment done by credit/debit card");

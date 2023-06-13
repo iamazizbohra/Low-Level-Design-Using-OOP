@@ -1,7 +1,7 @@
 package movieTicketBookingSystem;
 
 import movieTicketBookingSystem.enumeration.BookingStatus;
-import movieTicketBookingSystem.payment.PaymentGateway;
+import movieTicketBookingSystem.paymentMode.PaymentMode;
 
 import java.util.Date;
 import java.util.List;
@@ -14,15 +14,17 @@ public class Booking {
     private CinemaHall cinemaHall;
     private Show show;
     private List<ShowSeat> seats;
-    private PaymentGateway paymentGateway;
+    private PaymentMode paymentMode;
 
-    public void selectSeat(ShowSeat showSeat){
-
-    }
-    public void makePayment(PaymentGateway paymentGateway){
+    public void selectSeat(ShowSeat showSeat) {
 
     }
-    public void cancelBooking(){
+
+    public void makePayment(PaymentMode paymentMode) {
+
+    }
+
+    public void cancelBooking() {
 
     }
 }

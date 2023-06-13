@@ -2,7 +2,7 @@ package hotelManagementSystem.paymentMode;
 
 import java.util.Date;
 
-public class CreditCardPaymentMode extends PaymentMode {
+public class PayByCreditCard extends PaymentMode {
     private String name;
     private String cardNo;
     private String cvvNo;

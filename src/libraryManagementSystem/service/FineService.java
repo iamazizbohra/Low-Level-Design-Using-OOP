@@ -2,14 +2,14 @@ package libraryManagementSystem.service;
 
 import libraryManagementSystem.BookItem;
 import libraryManagementSystem.Constants;
-import libraryManagementSystem.payment.PaymentGateway;
+import libraryManagementSystem.paymentMode.PaymentMode;
 
 import java.util.Random;
 
 public class FineService {
     private PaymentService paymentService;
 
-    public void setPaymentGateway(PaymentGateway paymentGateway) {
+    public void setPaymentGateway(PaymentMode paymentGateway) {
         this.paymentService = new PaymentService(paymentGateway);
     }
 

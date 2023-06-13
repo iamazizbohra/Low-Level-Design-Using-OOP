@@ -1,9 +1,9 @@
 package hotelManagementSystem.transaction;
 
-import hotelManagementSystem.paymentMode.CreditCardPaymentMode;
+import hotelManagementSystem.paymentMode.PayByCreditCard;
 
 public class CreditCardTransaction extends Transaction {
     public CreditCardTransaction() {
-        super(new CreditCardPaymentMode());
+        super(new PayByCreditCard());
     }
 }

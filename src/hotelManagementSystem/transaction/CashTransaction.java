@@ -1,9 +1,9 @@
 package hotelManagementSystem.transaction;
 
-import hotelManagementSystem.paymentMode.CashPaymentMode;
+import hotelManagementSystem.paymentMode.PayByCash;
 
 public class CashTransaction extends Transaction {
     public CashTransaction() {
-        super(new CashPaymentMode());
+        super(new PayByCash());
     }
 }

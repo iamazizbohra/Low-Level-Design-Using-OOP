@@ -3,8 +3,8 @@ package onlineShoppingSystem.user;
 import onlineShoppingSystem.Address;
 import onlineShoppingSystem.Order;
 import onlineShoppingSystem.ProductReview;
-import onlineShoppingSystem.payment.BankAccount;
-import onlineShoppingSystem.payment.CreditCard;
+import onlineShoppingSystem.paymentMode.PayByBankAccount;
+import onlineShoppingSystem.paymentMode.PayByCreditCard;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ public class Member extends Customer {
     private Account account;
     private Address shippingAddress;
     private Address billingAddress;
-    private List<CreditCard> creditCards;
-    private List<BankAccount> bankAccounts;
+    private List<PayByCreditCard> creditCards;
+    private List<PayByBankAccount> bankAccounts;
     private List<Order> orders;
 
     public Address getShippingAddress() {
@@ -24,19 +24,19 @@ public class Member extends Customer {
         this.shippingAddress = shippingAddress;
     }
 
-    public void addCreditCard(CreditCard creditCard) {
+    public void addCreditCard(PayByCreditCard creditCard) {
         this.creditCards.add(creditCard);
     }
 
-    public void removeCreditCard(CreditCard creditCard) {
+    public void removeCreditCard(PayByCreditCard creditCard) {
         this.creditCards.remove(creditCard);
     }
 
-    public void addBankAccount(BankAccount bankAccount) {
+    public void addBankAccount(PayByBankAccount bankAccount) {
         this.bankAccounts.add(bankAccount);
     }
 
-    public void removeBankAccount(BankAccount bankAccount) {
+    public void removeBankAccount(PayByBankAccount bankAccount) {
         this.bankAccounts.remove(bankAccount);
     }
 

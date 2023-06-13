@@ -6,7 +6,7 @@ import parkingLot.ParkingTicket;
 import parkingLot.Vehicle.Vehicle;
 import parkingLot.enumeration.TicketStatus;
 import parkingLot.parkingSpot.ParkingSpot;
-import parkingLot.payment.PayByCard;
+import parkingLot.paymentMode.PayByCard;
 import parkingLot.service.PaymentService;
 
 import java.util.Date;

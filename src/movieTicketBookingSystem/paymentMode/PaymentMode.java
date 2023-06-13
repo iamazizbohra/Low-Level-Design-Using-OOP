@@ -1,10 +1,10 @@
-package movieTicketBookingSystem.payment;
+package movieTicketBookingSystem.paymentMode;
 
 import movieTicketBookingSystem.enumeration.PaymentStatus;
 
 import java.util.Date;
 
-public abstract class PaymentGateway {
+public abstract class PaymentMode {
     private double amount;
     private Date createdAt;
     private int transactionId;

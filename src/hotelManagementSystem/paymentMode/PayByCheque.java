@@ -1,6 +1,6 @@
 package hotelManagementSystem.paymentMode;
 
-public class ChequePaymentMode extends PaymentMode {
+public class PayByCheque extends PaymentMode {
     private String name;
     private String bankName;
     private String chequeNo;

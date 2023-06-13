@@ -1,6 +1,6 @@
-package movieTicketBookingSystem.payment;
+package movieTicketBookingSystem.paymentMode;
 
-public class BankAccount extends PaymentGateway {
+public class PayByBankAccount extends PaymentMode {
     private String name;
     private String accountNumber;
     private String username;

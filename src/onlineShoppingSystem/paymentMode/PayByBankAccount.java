@@ -1,6 +1,6 @@
-package onlineShoppingSystem.payment;
+package onlineShoppingSystem.paymentMode;
 
-public class BankAccount implements PaymentGateway {
+public class PayByBankAccount implements PaymentMode {
     private String name;
     private String accountNumber;
     private String username;

@@ -1,15 +1,15 @@
 package parkingLot.service;
 
-import parkingLot.payment.PaymentGateway;
+import parkingLot.paymentMode.Paymentmode;
 
 public class PaymentService {
-    private PaymentGateway paymentGateway;
+    private Paymentmode paymentmode;
 
-    public PaymentService(PaymentGateway paymentGateway) {
-        this.paymentGateway = paymentGateway;
+    public PaymentService(Paymentmode paymentGateway) {
+        this.paymentmode = paymentGateway;
     }
 
     public void makePayment(double amount) {
-        this.paymentGateway.pay(amount);
+        this.paymentmode.pay(amount);
     }
 }

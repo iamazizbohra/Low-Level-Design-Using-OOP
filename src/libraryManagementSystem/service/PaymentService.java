@@ -1,15 +1,15 @@
 package libraryManagementSystem.service;
 
-import libraryManagementSystem.payment.PaymentGateway;
+import libraryManagementSystem.paymentMode.PaymentMode;
 
 public class PaymentService {
-    private PaymentGateway paymentGateway;
+    private PaymentMode paymentMode;
 
-    public PaymentService(PaymentGateway paymentGateway) {
-        this.paymentGateway = paymentGateway;
+    public PaymentService(PaymentMode paymentMode) {
+        this.paymentMode = paymentMode;
     }
 
     public void makePayment(int amount) {
-        this.paymentGateway.pay(amount);
+        this.paymentMode.pay(amount);
     }
 }

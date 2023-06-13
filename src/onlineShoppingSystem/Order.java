@@ -1,7 +1,7 @@
 package onlineShoppingSystem;
 
 import onlineShoppingSystem.enumeration.OrderStatus;
-import onlineShoppingSystem.payment.PaymentGateway;
+import onlineShoppingSystem.paymentMode.PaymentMode;
 
 import java.util.Date;
 import java.util.List;
@@ -24,7 +24,7 @@ public class Order {
         return true;
     }
 
-    public boolean makePayment(PaymentGateway paymentGateway) {
+    public boolean makePayment(PaymentMode paymentMode) {
         return true;
     }
 
