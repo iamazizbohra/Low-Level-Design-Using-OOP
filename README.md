@@ -3,7 +3,19 @@
 Below are the curated resources to master Low-Level-Design-Using-OOP, Make sure to read them in the same order as listed
 
 
-## Must read books:
+## Prerequisites
+
+Must have good command over any one object-oriented programming language. Recommended programming language is Java.
+
+Resources to learn Java:
+
+1. **Head First Java: A Brain-Friendly Guide:** https://amzn.eu/d/cllDh6E
+2. **Java for Dummies:** https://amzn.eu/d/grXoiz2
+3. **Core Java: Volume 1 - Fundamentals:** https://amzn.eu/d/fSnvOyS
+4. **Core Java: Volume 2 - Advanced Features:** https://amzn.eu/d/4Bz7Cog
+
+
+## Must read books for OOA&D:
 
 1. Clean Code: A Handbook of Agile Software Craftsmanship - https://amzn.eu/d/3erdDYj
 
