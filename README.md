@@ -61,7 +61,7 @@ https://1kevinson.com/4-pillars-of-object-oriented-programming/
 https://iamazizbohra.hashnode.dev/software-design-patterns-distilled
 
 
-## YouTube Playlist
+## LLD YouTube Playlists
 
 1. **The Tech Granth:** https://www.youtube.com/playlist?list=PLJN9ydlFnJsiEgyjO3D3yBhtiENymhF8G
 
@@ -78,7 +78,7 @@ https://iamazizbohra.hashnode.dev/software-design-patterns-distilled
 7. **InterviewWithBunny:** https://www.youtube.com/playlist?list=PLPtUyMfD0mNIQ9rSXdX5LprFvbIJ0KrIQ
 
 
-## Sample Questions
+## Sample Questions Repository
 After having a good understanding of OOA&D, you are ready to dive into this repository. This repository has many OOP questions, each question is intended to solve a specific design problem. These questions will help you improve your object-oriented design skills. You will get to learn how to analyze the components of a system in terms of objects and how to design a system using OOP concepts. You will learn how to organize those objects and make them communicate efficiently while keeping them flexible. It will be fun to learn how to design a flexible, reusable, extendable, and maintainable system.
 
 https://github.com/iamazizbohra/Low-Level-Design-Using-OOP
