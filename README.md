@@ -15,7 +15,7 @@ Resources to learn Java:
 4. **Core Java: Volume 2 - Advanced Features:** https://amzn.eu/d/4Bz7Cog
 
 
-## Must read books for OOA&D:
+## Must-reads books for OOA&D:
 
 1. Clean Code: A Handbook of Agile Software Craftsmanship - https://amzn.eu/d/3erdDYj
 
@@ -34,7 +34,7 @@ https://amzn.eu/d/eJ0JFJR
 https://iamazizbohra.hashnode.dev/what-is-object-oriented-programming
 
 
-## OOPS Concept with real-world example
+## OOP Concept with real-world example
 
 https://www.javaguides.net/p/object-oriented-design.html
 
@@ -44,19 +44,19 @@ https://www.javaguides.net/p/object-oriented-design.html
 https://iamazizbohra.hashnode.dev/what-is-polymorphism-in-oops
 
 
-## 4 pillars of OOPS
+## 4 pillars of OOP
 
 https://1kevinson.com/4-pillars-of-object-oriented-programming/
 
 
-## Must know Design Principles
+## Must have known Design Principles
 
 - https://iamazizbohra.hashnode.dev/the-ultimate-guide-to-software-design-principles-part-1
 
 - https://iamazizbohra.hashnode.dev/the-ultimate-guide-to-software-design-principles-part-2
 
 
-## Must know Design Patterns
+## Must have known Design Patterns
 
 https://iamazizbohra.hashnode.dev/software-design-patterns-distilled
 
